@@ -1,13 +1,14 @@
 {
-  "name": "bloodbank-app",
-  "version": "1.0.0",
   "bin": {"bloodbank": "jdeploy-bundle/jdeploy.js"},
+  "author": "dhivya",
+  "name": "bloodbank-app",
   "description": "Blood Bank Management System - Java Swing App",
   "preferGlobal": "true",
+  "version": "1.0.2",
   "jdeploy": {
+    "javaVersion": "21",
     "jar": "dist/BloodBankManagement.jar",
-    "title": "BloodBank Management",
-    "javaVersion": "21"
+    "title": "BloodBank Management"
   },
   "dependencies": {
     "command-exists-promise": "^2.0.2",
