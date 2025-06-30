@@ -59,6 +59,27 @@ Database Connection: MySQL Database configured locally or remotely
 
 ---
 
+## 🚀 How to Run (with jDeploy)
+You can run this app directly with jDeploy:
+
+1. **🛠 Install jDeploy globally:**
+
+```bash
+npm install -g jdeploy
+```
+2. **🔁 Run the App**
+
+```bash
+npx bloodbank-app
+```
+
+3. **📦 jDeploy Live Package**
+
+```bash
+**🔗 Published App:**
+https://www.jdeploy.com/~bloodbank-app
+```
+---
 ## 📁 Directory Structure
 
 ```bash
