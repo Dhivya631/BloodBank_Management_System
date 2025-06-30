@@ -75,8 +75,8 @@ npx bloodbank-app
 
 3. **📦 jDeploy Live Package**
 
-🔗 Published App:
-https://www.jdeploy.com/~bloodbank-app 
+**🔗 Published App:**
+- https://www.jdeploy.com/~bloodbank-app 
 ---
 ## 📁 Directory Structure
 
