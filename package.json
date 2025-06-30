@@ -1,0 +1,35 @@
+{
+  "name": "BloodBankManagement",
+  "version": "1.0.0",
+  "description": "Java Swing Blood Bank Management System using jDeploy",
+  "main": "index.js",
+  "bin": {
+    "BloodBankManagement": "jdeploy-bundle/jdeploy.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dhivya631/BloodBank_Management_System.git"
+  },
+  "preferGlobal": true,
+  "files": ["jdeploy-bundle"],
+  "dependencies": {
+    "command-exists-promise": "^2.0.2",
+    "node-fetch": "2.6.7",
+    "tar": "^4.4.8",
+    "yauzl": "^2.10.0",
+    "shelljs": "^0.8.4"
+  },
+  "jdeploy": {
+    "title": "BloodBankManagement",
+    "jar": "dist/BloodBankManagement.jar",
+    "mainClass": "BloodBank.Home",
+    "javaVersion": "21",
+    "jdk": false,
+    "javafx": false
+  }
+}
